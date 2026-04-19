@@ -1,15 +1,22 @@
-import { useState } from 'react'
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Navbar from "./Components/Navbar";
+import Home from "./Pages/Home";
+import Apps from "./Pages/Apps";
+import Games from "./Pages/Games";
+import Product from "./Pages/Product";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <div className="App">
-      <h1>Counter: {count}</h1>
-      <button onClick={() => setCount(count + 1)}>Increment</button>
-      <button onClick={() => setCount(count - 1)}>Decrement</button>
-    </div>
-  )
+    <BrowserRouter>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/apps" element={<Apps />} />
+        <Route path="/games" element={<Games />} />
+        <Route path="/product" element={<Product />} />
+      </Routes>
+    </BrowserRouter>
+  );
 }
 
-export default App
+export default App;
