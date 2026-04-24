@@ -8,7 +8,7 @@
     },
     {
       "name": "Call of Duty®",
-      "price": "Game Pass",
+      "price": "₹ 5,599.00",
       "badge": "Game Pass",
       "rating": 3.5,
       "image": "https://store-images.s-microsoft.com/image/apps.42015.13966330883349940.e8d96f51-63dc-4377-8441-88d85afdd80a.d84cbd17-ae03-4537-8641-8c33c308de78"
@@ -144,6 +144,121 @@
       "rating": 4.5,
       "price": "₹ 6,599.00",
       "image": "https://store-images.s-microsoft.com/image/apps.23625.13806078025361171.9723cf5e-1e29-4d9d-ad0a-cc37a95bb75d.e02f4ead-d89b-45cd-8eb5-5dcbf44ae91f"
+    }
+  ],
+
+  "bestOfGamePass": [
+    {
+      "name": "Asphalt Legends",
+      "price": "Free",
+      "rating": "4.7",
+      "image": "https://store-images.s-microsoft.com/image/apps.808.14492077886571533.be42f4bd-887b-4430-8ed0-622341b4d2b0.c8274c53-105e-478b-9f4b-41b8088210a3",
+      "badge": "Game Pass"
+    },
+    {
+      "name": "Forza Horizon 5 Standard Edition",
+      "price": "₹ 3,999.00",
+      "rating": "4.6",
+      "image": "https://store-images.s-microsoft.com/image/apps.49800.13718773309227929.bebdcc0e-1ed5-4778-8732-f4ef65a2f445.9ac09d39-064d-466c-81ca-2f1b6f0b95c5",
+      "badge": "Game Pass"
+    },
+    {
+      "name": "Cricket 24: The Official Game Of The Ashes",
+      "price": "₹ 2,999.00",
+      "rating": "3.4",
+      "image": "https://store-images.s-microsoft.com/image/apps.22369.13662804336614394.63dd49dd-f93b-4b67-b597-bace2d4550c2.d43b3619-c31e-41f2-9f53-e8b110203433",
+      "badge": "Game Pass"
+    },
+    {
+      "name": "Microsoft Flight Simulator 2024",
+      "price": "₹ 5,000.00",
+      "rating": "2.7",
+      "image": "https://store-images.s-microsoft.com/image/apps.59000.14550648823552491.458517e5-6b50-4124-b28b-b87004bdb3d1.961d2dcc-23a2-4997-a317-7237e2d47bbc",
+      "badge": "Game Pass"
+    },
+    {
+      "name": "Fortnite",
+      "price": "Free",
+      "rating": "4.4",
+      "image": "https://store-images.s-microsoft.com/image/apps.63929.70702278257994163.69677d4c-f0b7-4b9d-9b9a-a607bc348656.1bcb20c1-25d0-4e1b-b5cd-1f8c8b0f1ce1",
+      "badge": "Game Pass"
+    },
+    {
+      "name": "Sea of Thieves: 2026 Edition",
+      "price": "₹ 3,499.00",
+      "rating": "4.0",
+      "image": "https://store-images.s-microsoft.com/image/apps.29206.14554784103656548.069efce3-9249-4074-a169-183b727043f8.03688f8c-edc0-416b-bebb-9d98a01c25f5",
+      "badge": "Game Pass"
+    },
+    {
+      "name": "Cities: Skylines II",
+      "price": "₹ 2,724.00",
+      "rating": "3.1",
+      "image": "https://store-images.s-microsoft.com/image/apps.63682.14241982748923031.b7ab82d8-956b-4d85-b739-c1cd07cb25df.6e134b4c-c4db-4dc7-bbdd-f736c3d3fd94",
+      "badge": "Game Pass"
+    },
+    {
+      "name": "Age of Empires II: Definitive Edition",
+      "price": "₹ 1,399.00",
+      "rating": "4.3",
+      "image": "https://store-images.s-microsoft.com/image/apps.55056.13678235101671609.c350aa6a-23e2-407c-94fd-5050e9bedb6f.f8b5d931-11f6-46e3-859f-54981d5b9d1b",
+      "badge": "Game Pass"
+    },
+    {
+      "name": "Resident Evil Village",
+      "price": "₹ 2,399.00",
+      "rating": "4.6",
+      "image": "https://store-images.s-microsoft.com/image/apps.56356.13946458263695761.43457946-df8c-4dc7-96ef-7ffc79bd1869.dc330229-0b8f-4260-9efc-a88249566e7c",
+      "badge": "Game Pass"
+    },
+    {
+      "name": "Dead by Daylight",
+      "price": "₹ 463.60",
+      "rating": "3.5",
+      "image": "https://store-images.s-microsoft.com/image/apps.1604.13756572830160292.c2ab501f-9ce7-4bae-948c-6cc058e77561.2da44fc8-eb9e-40ca-b43a-a8095c163bb4",
+      "badge": "Game Pass"
+    },
+    {
+      "name": "SnowRunner",
+      "price": "₹ 1,199.00",
+      "rating": "4.2",
+      "image": "https://store-images.s-microsoft.com/image/apps.25998.13728552621924096.0f7a693b-b178-499b-ac11-0ea8578f8480.88e6f480-29a4-44c0-8a97-cece69dc489e",
+      "badge": "Game Pass"
+    },
+    {
+      "name": "DEATH STRANDING DIRECTOR'S CUT",
+      "price": "₹ 2,499.00",
+      "rating": "4.6",
+      "image": "https://store-images.s-microsoft.com/image/apps.9944.13774354316070254.dbfd815f-aaf8-4e63-b069-bd514601d13b.d92d38cc-8bb2-48c7-a102-27445555cc76",
+      "badge": "Game Pass"
+    },
+    {
+      "name": "Age of Mythology: Retold",
+      "price": "₹ 1,499.00",
+      "rating": "4.5",
+      "image": "https://store-images.s-microsoft.com/image/apps.11603.13792255792507479.e5089564-b472-427d-a39f-9e97ae74bf23.022933e1-6a30-4a52-8c02-0b9400857d8e",
+      "badge": "Game Pass"
+    },
+    {
+      "name": "Call of Duty®: Modern Warfare III",
+      "price": "₹ 5,599.00",
+      "rating": "3.9",
+      "image": "https://store-images.s-microsoft.com/image/apps.55183.13612848337674936.f9e71e15-6765-4282-8a3d-968dccfb729c.f59acc22-2c7b-41fb-96ca-d173dc290712",
+      "badge": "Game Pass"
+    },
+    {
+      "name": "Clair Obscur: Expedition 33",
+      "price": "₹ 2,724.00",
+      "rating": "4.8",
+      "image": "https://store-images.s-microsoft.com/image/apps.55260.14322280443288156.27788484-2760-47f7-be0d-dd693682e016.c7b2322a-d6b0-4051-a58b-d0b11aa37b20",
+      "badge": "Game Pass"
+    },
+    {
+      "name": "Rise of Nations: Extended Edition",
+      "price": "₹ 1,099.00",
+      "rating": "3.9",
+      "image": "https://store-images.s-microsoft.com/image/apps.9111.14372382618520757.abf28ec3-091b-4042-b5bc-2e3293346525.035163a1-1d77-4fc1-91ed-e68f12cdf835",
+      "badge": "Game Pass"
     }
   ],
 

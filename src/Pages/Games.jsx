@@ -7,6 +7,7 @@ export default function Games() {
   const allGames = [
 
     ...gamesData.bestSellingGames,
+    ...gamesData.bestOfGamePass,
     ...gamesData.puzzleGames,
     ...gamesData.buildYourOwnWorld,
     ...gamesData.topPaidGames,
@@ -25,9 +26,9 @@ export default function Games() {
 
       <Gamesbar heading="New & Notable PC Games " type="newNotableGames" />
       <Gamesbar heading="Best selling games " type="bestSellingGames" />
+      <Gamesbar heading="Best of Game Pass" type="bestOfGamePass" />
       <Gamesbar heading="Puzzle games " type="puzzleGames" />
       <Gamesbar heading="Top paid games" type="topPaidGames" />
-
     </div>
   );
 }
