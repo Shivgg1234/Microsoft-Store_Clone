@@ -1,0 +1,158 @@
+/* NAVBAR MAIN */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #0f0f0f;
+  padding: 12px 20px;
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+/* LEFT SECTION */
+.nav-left {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+/* LOGO */
+.logo {
+  width: 20px;
+  height: 20px;
+}
+
+/* STORE TEXT */
+.store-text {
+  font-weight: 500;
+  margin-right: 10px;
+}
+
+/* LINKS */
+.nav-left a {
+  text-decoration: none;
+  color: #ccc;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.nav-left a:hover {
+  color: white;
+}
+
+/* CENTER SEARCH */
+.nav-center {
+  position: relative;
+}
+
+/* INPUT */
+.nav-center input {
+  width: 280px;
+  padding: 8px 15px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  background: #1f1f1f;
+  color: white;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+/* INPUT FOCUS */
+.nav-center input:focus {
+  background: #2a2a2a;
+}
+
+/* SEARCH DROPDOWN */
+.search-box {
+  position: absolute;
+  top: 45px;
+  width: 100%;
+  background: #1e1e1e;
+  border-radius: 12px;
+  padding: 6px 0;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+}
+
+/* SEARCH ITEMS */
+.search-item {
+  padding: 10px 15px;
+  font-size: 14px;
+  color: #ddd;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.search-item:hover {
+  background: #2f2f2f;
+  color: white;
+}
+
+/* RIGHT SECTION */
+.nav-right {
+  display: flex;
+  align-items: center;
+}
+
+/* SIGN IN BUTTON */
+.signbtn {
+  background: #2a2a2a;
+  color: white;
+  border: none;
+  padding: 6px 16px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.signbtn:hover {
+  background: #3a3a3a;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .nav-center input {
+    width: 180px;
+  }
+
+  .nav-left {
+    gap: 10px;
+  }
+
+  .nav-left a {
+    display: none; /* hide links on small screen */
+  }
+}
+/* SEARCH ITEM WITH IMAGE */
+.search-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 12px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.search-item img {
+  width: 28px;
+  height: 28px;
+  border-radius: 6px;
+}
+
+.search-item p {
+  margin: 0;
+  font-size: 14px;
+  color: white;
+}
+
+.search-item span {
+  font-size: 12px;
+  color: #aaa;
+}
+
+.search-item:hover {
+  background: #2a2a2a;
+}
