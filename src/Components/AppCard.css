@@ -1,11 +1,11 @@
 /* CARD */
 .app-card {
-  width: 160px;
-  min-width: 160px;
+  width: 170px;
+  min-width: 170px;
 
-  background: #ffffff;
-  border-radius: 14px;
-  padding: 12px;
+  background: linear-gradient(145deg, #ffffff, #e9edf2);
+  border-radius: 18px;
+  padding: 14px;
 
   display: flex;
   flex-direction: column;
@@ -13,80 +13,68 @@
 
   flex-shrink: 0;
   cursor: pointer;
-  transition: 0.2s;
+  transition: all 0.25s ease;
 
-  border: 1px solid #e5e5e5;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
 }
 
-/* DARK MODE */
-[data-theme="dark"] .app-card {
-  background: #1a1a1a;
-  border: 1px solid #333;
-}
-
-/* HOVER EFFECT */
+/* HOVER (more black depth) */
 .app-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  transform: translateY(-6px) scale(1.03);
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.2);
 }
 
-/* IMAGE */
+/* ICON */
 .app-card img {
-  width: 52px;
-  height: 52px;
-  border-radius: 12px;
+  width: 56px;
+  height: 56px;
+  border-radius: 14px;
   object-fit: cover;
+
+  background: #ffffff;
+  padding: 6px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
 }
 
-/* APP NAME */
+/* TITLE (strong black) */
 .app-card h3 {
   font-size: 14px;
   font-weight: 600;
   margin: 0;
-  color: #111;
+  color: #111;   /* strong black */
 
-  /* prevent breaking layout */
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
 
-/* DARK TEXT */
-[data-theme="dark"] .app-card h3 {
-  color: #ffffff;
-}
-
 /* CATEGORY */
 .app-card p {
-  font-size: 12px;
+  font-size: 11px;
   margin: 0;
-  color: #666;
-}
+  color: #555;
 
-[data-theme="dark"] .app-card p {
-  color: #aaa;
+  background: #e5e7eb;
+  padding: 2px 8px;
+  border-radius: 999px;
+  width: fit-content;
 }
 
 /* RATING */
 .app-card span {
   font-size: 12px;
-  color: #f5a623;
+  color: #f59e0b;
+  font-weight: 600;
 }
 
-/* OPTIONAL: slight spacing improvement */
-.app-card span::before {
-  margin-right: 2px;
-}
-
-/* RESPONSIVE (optional) */
-@media (max-width: 768px) {
-  .app-card {
-    width: 140px;
-    min-width: 140px;
-  }
-
-  .app-card img {
-    width: 48px;
-    height: 48px;
-  }
+/* TOP BAR (with black blend) */
+.app-card::before {
+  content: "";
+  display: block;
+  height: 4px;
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+  background: linear-gradient(90deg, #000000, #0078d4);
+  margin-bottom: 8px;
 }
