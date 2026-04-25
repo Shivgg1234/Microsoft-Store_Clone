@@ -4,7 +4,8 @@ import gamesData from "../Data/games.json";
 import appData from "../Data/app.json";
 import GameCard from "../Components/GameCard";
 import AppCard from "../Components/AppCard";
-import "./Home.css";
+import "./Home.css"
+
 
 export default function Home() {
   return (

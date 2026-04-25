@@ -1,58 +1,58 @@
 .home {
-    padding: 20px 40px;
-    background: #0b0b0b;
-    color: white;
+  padding: 20px 40px;
+  background: #0b0b0b;
+  color: white;
 }
 
 /* ROW */
 .home-row {
-    display: flex;
-    gap: 20px;
-    margin-top: 30px;
+  display: flex;
+  gap: 20px;
+  margin-top: 30px;
 }
 
 /* BOX */
 .home-box {
-    flex: 1;
-    background: #1a1a1a;
-    padding: 20px;
-    border-radius: 16px;
+  flex: 1;
+  background: #1a1a1a;
+  padding: 20px;
+  border-radius: 16px;
 }
 
 /* TITLE */
 .home-box h3 {
-    margin-bottom: 15px;
-    font-size: 18px;
+  margin-bottom: 15px;
+  font-size: 18px;
 }
 
 /* ITEM */
 .home-item {
-    display: flex;
-    gap: 12px;
-    align-items: center;
-    margin-bottom: 15px;
-    cursor: pointer;
-    transition: 0.2s;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 15px;
+  cursor: pointer;
+  transition: 0.2s;
 }
 
 .home-item:hover {
-    transform: translateX(5px);
+  transform: translateX(5px);
 }
 
 /* IMAGE */
 .home-item img {
-    width: 50px;
-    height: 50px;
-    border-radius: 10px;
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
 }
 
 /* TEXT */
 .home-item p {
-    margin: 0;
-    font-size: 14px;
+  margin: 0;
+  font-size: 14px;
 }
 
 .home-item span {
-    font-size: 12px;
-    color: #aaa;
+  font-size: 12px;
+  color: #aaa;
 }
