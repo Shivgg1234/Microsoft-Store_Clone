@@ -3,7 +3,7 @@
   width: 170px;
   min-width: 170px;
 
-  background: linear-gradient(145deg, #ffffff, #e9edf2);
+  background: linear-gradient(145deg, #838383, #ffffff);
   border-radius: 18px;
   padding: 14px;
 
@@ -22,7 +22,7 @@
 /* HOVER (more black depth) */
 .app-card:hover {
   transform: translateY(-6px) scale(1.03);
-  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 14px 30px rgba(255, 254, 254, 0.2);
 }
 
 /* ICON */
@@ -32,7 +32,7 @@
   border-radius: 14px;
   object-fit: cover;
 
-  background: #ffffff;
+  background: #fffefe;
   padding: 6px;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
 }
@@ -55,7 +55,7 @@
   margin: 0;
   color: #555;
 
-  background: #e5e7eb;
+  background: #e2e4e8;
   padding: 2px 8px;
   border-radius: 999px;
   width: fit-content;
