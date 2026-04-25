@@ -16,7 +16,7 @@ export default function ScrollSection({ title, data }) {
   return (
     <div className="scroll-section">
       
-      {/* HEADER */}
+
       <div className="scroll-header">
         <h2>{title} ›</h2>
 
