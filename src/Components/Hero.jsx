@@ -32,14 +32,14 @@ export default function Hero(prop) {
         <div className="bottom">
           <div className="card small">
             <img src={prop.link3} alt="" />
-            <div className="card-overlay">
+            <div style={{fontWeight:"bold"}}className="card-overlay">
               <p>{prop.text3}</p>
             </div>
           </div>
 
           <div className="card small">
             <img src={prop.link4} alt="" />
-            <div className="card-overlay">
+            <div style={{fontWeight:"bold"}} className="card-overlay">
               <p>{prop.text4}</p>
             </div>
           </div>
