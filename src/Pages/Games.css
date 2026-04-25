@@ -1,6 +1,6 @@
 .games-section {
   padding: 20px 40px;
-  background: white;
+  background:#000000;
 }
 
 [data-theme="dark"] .games-section {
@@ -18,7 +18,7 @@
   margin: 0;
   font-size: 22px;
   font-weight: 600;
-  color: #1a1a1a;
+  color: #ffffff;
   cursor: pointer;
 }
 
