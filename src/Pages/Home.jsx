@@ -23,10 +23,10 @@ export default function Home() {
         text4="▶ Console Gaming"
       />
 
-      {/* TRENDING SECTION */}
+
       <div className="home-row">
 
-        {/* TRENDING GAMES */}
+
         <div className="home-box">
           <h3>Trending games ›</h3>
 
@@ -41,7 +41,6 @@ export default function Home() {
           ))}
         </div>
 
-        {/* TRENDING APPS */}
         <div className="home-box">
           <h3>Trending apps ›</h3>
 
@@ -58,7 +57,6 @@ export default function Home() {
 
       </div>
 
-      {/* SCROLL SECTION */}
       <ScrollSection
         title="Best selling games"
         data={gamesData.bestSellingGames}

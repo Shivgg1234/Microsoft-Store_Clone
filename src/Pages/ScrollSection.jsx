@@ -21,7 +21,7 @@ export default function ScrollSection({ title, data, renderCard }) {
   return (
     <div className="scroll-section">
 
-      {/* HEADER */}
+
       <div className="scroll-header">
         <h2>{title} ›</h2>
 
@@ -35,7 +35,6 @@ export default function ScrollSection({ title, data, renderCard }) {
         </div>
       </div>
 
-      {/* SCROLL AREA */}
       <div className="scroll-container" ref={scrollRef}>
         {data.map((item, index) => renderCard(item, index))}
       </div>
