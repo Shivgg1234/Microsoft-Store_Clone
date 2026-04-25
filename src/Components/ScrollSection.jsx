@@ -30,7 +30,6 @@ export default function ScrollSection({ title, data }) {
         </div>
       </div>
 
-      {/* SCROLL AREA */}
       <div className="scroll-container" ref={scrollRef}>
         {data.map((app) => (
           <div key={app.id} style={{ minWidth: "180px" }}>

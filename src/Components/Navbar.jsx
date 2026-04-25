@@ -7,7 +7,7 @@ import "./Navbar.css";
 export default function Navbar() {
   const [query, setQuery] = useState("");
 
-  // combine apps + games
+
   const allItems = [
     ...data.apps,
     ...gamesData.bestSellingGames,
@@ -17,7 +17,7 @@ export default function Navbar() {
     ...gamesData.topPaidGames,
   ];
 
-  // filter
+
   const filtered = allItems.filter((item) =>
     item.name.toLowerCase().includes(query.toLowerCase())
   );
