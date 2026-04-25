@@ -1,10 +1,17 @@
+import "./AppCard.css";
+
 export default function AppCard({ app }) {
   return (
-    <div style={{ border: "1px solid #ccc", padding: "10px", borderRadius: "10px" }}>
-      <img src={app.image} alt={app.name} width="100%" />
+    <div className="app-card">
+      
+      <img src={app.image} alt={app.name} />
+
       <h3>{app.name}</h3>
+
       <p>{app.category}</p>
-      <p>⭐ {app.rating}</p>
+
+      <span>⭐ {app.rating}</span>
+
     </div>
   );
 }
